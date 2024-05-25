@@ -1,0 +1,1 @@
+$(".slider").on("click",(function(){$("body").toggleClass("dark"),$("body").hasClass("dark")?$("h1").text("Welcome to the Dark Side"):$("h1").text("Welcome to the Bright Side"),$(".slider")}));
